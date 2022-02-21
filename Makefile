@@ -4,4 +4,4 @@ geo: geometry.c
 clean:
 	rm geometry
 run:
-	./geo
+	./geometry
