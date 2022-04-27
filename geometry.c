@@ -82,5 +82,5 @@ int main(void){
 		printf("Radius: %s\n", coordin[2].coor);
 		l++;
 	}
-return 0;
+	return 0;
 }
