@@ -98,12 +98,12 @@ int main(void)
         l++;
     }
 
-    //float cord1 = dotnum(coordin[0].coor);
-    //float cord2 = dotnum(coordin[1].coor);
-    //float cord3 = dotnum(coordin[2].coor);
+    // float cord1 = dotnum(coordin[0].coor);
+    // float cord2 = dotnum(coordin[1].coor);
+    // float cord3 = dotnum(coordin[2].coor);
 
-    //per_area(cord3);
+    // per_area(cord3);
 
-    //printf("\n%f\n%f\n%s\n", cord1, cord2, ch2);
+    // printf("\n%f\n%f\n%s\n", cord1, cord2, ch2);
     return 0;
 }
