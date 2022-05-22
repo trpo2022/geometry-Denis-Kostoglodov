@@ -40,3 +40,8 @@ $(OBJ_DIR)/%.o: %.c
 clean:
 	rm -rf $(APP_PATH) $(LIB_PATH)
 	rm -rf $(DEPS) $(APP_OBJECTS) $(LIB_OBJECTS)
+run:
+	-$(APP_PATH)
+
+run_test:
+	-$(TEST_PATH)
