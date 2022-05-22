@@ -1,7 +1,7 @@
 APP_NAME = geom
 LIB_NAME = libgeom
 TEST_NAME = test
-DEBUG =
+DEBUG = -g -O0
 
 CFLAGS = -Wall -Wextra -Werror
 CPPFLAGS = -I src -I party -MP -MMD
