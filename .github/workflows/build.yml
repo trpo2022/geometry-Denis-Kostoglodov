@@ -11,5 +11,5 @@ jobs:
         run: git ls-files src/*.{c,h} && test/*.c | xargs clang-format -i --verbose && git diff --exit-code
       - name: Build application
         run: make
-      - name: Build test
-        run: make test && make run_test
+      - name: Test application
+        run: make test
